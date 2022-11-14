@@ -14,9 +14,8 @@ function App() {
         <img src={ironhackLogo} alt="Ironhack logo" />
         <img src={menuBar} alt="Menu" />
       </header>
-
-      <h1> Say hello to ReactJS </h1>
-
+      
+      <h1> Say hello to <br></br> ReactJS </h1>
       <p> You will learn how to use
          the most popular frontend library,
           and become a super Ninja developer. </p>
@@ -28,7 +27,7 @@ function App() {
       
     </section>
 
-    <section className>
+    <section className="flexbox">
       <div>
       <img src={iconWrench} alt="Icon wrench" />
       <h2> Declarative </h2>
